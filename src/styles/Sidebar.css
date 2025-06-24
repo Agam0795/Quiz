@@ -1,0 +1,81 @@
+:root {
+  --sidebar-bg: linear-gradient(180deg, #4f46e5, #3730a3);
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+  --link-text-color: #e0e7ff;
+  --link-hover-bg: rgba(255, 255, 255, 0.1);
+  --link-active-bg: #ffffff;
+  --link-active-color: #4f46e5;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  height: 100vh;
+  background: var(--sidebar-bg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  color: var(--link-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.sidebar-link:hover {
+  background-color: var(--link-hover-bg);
+  color: #ffffff;
+}
+
+.sidebar-link.active {
+  background-color: var(--link-active-bg);
+  color: var(--link-active-color);
+  font-weight: 600;
+}
+
+.sidebar-link svg {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  min-width: 24px;
+}
+
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-footer .logout {
+    color: #fca5a5;
+}
+
+.sidebar-footer .logout:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+}
