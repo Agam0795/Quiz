@@ -1,0 +1,30 @@
+{
+    "name": "quizmaster",
+    "version": "1.0.0",
+    "description": "A modern React-based quiz application with authentication, quiz creation, and analytics",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+        "start": "concurrently \"npm run server:start\" \"npm run client:start\"",
+        "build": "npm run client:build",
+        "server:dev": "cd server && npm run dev",
+        "server:start": "cd server && npm start",
+        "client:dev": "cd client && npm run dev",
+        "client:start": "cd client && npm run dev",
+        "client:build": "cd client && npm run build",
+        "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+        "clean": "rimraf node_modules server/node_modules client/node_modules",
+        "setup": "npm run install:all"
+    },
+    "keywords": ["quiz", "react", "nodejs", "mongodb", "education"],
+    "author": "QuizMaster Team",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.0",
+        "rimraf": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=8.0.0"
+    }
+}
