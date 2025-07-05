@@ -1,0 +1,27 @@
+{
+  "node": {
+    "607ab17ff61d5b356a95e742d14b621ec454ecfe18": {
+      "workers": {
+        "app/create-quiz/page": {
+          "moduleId": "[project]/.next-internal/server/app/create-quiz/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/suggest-quiz-questions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/create-quiz/page": "action-browser"
+      }
+    },
+    "4044275e354a8150062aa110b13e04e00fc51e06bc": {
+      "workers": {
+        "app/create-quiz/page": {
+          "moduleId": "[project]/.next-internal/server/app/create-quiz/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/suggest-quiz-questions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/create-quiz/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

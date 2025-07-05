@@ -1,0 +1,61 @@
+{
+  "node": {
+    "4065d87215f5ad630b66e3bb3c078eb1f18e467f30": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      }
+    },
+    "6023bade6952bac5a833b51fce18a98dcc4a2c5970": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      }
+    },
+    "40705bfdf1b35d1327e926d2f40d340d5cc62304d7": {
+      "workers": {
+        "app/analysis/page": {
+          "moduleId": "[project]/.next-internal/server/app/analysis/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/analysis/page": "action-browser"
+      }
+    },
+    "607ab17ff61d5b356a95e742d14b621ec454ecfe18": {
+      "workers": {
+        "app/create-quiz/page": {
+          "moduleId": "[project]/.next-internal/server/app/create-quiz/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/suggest-quiz-questions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/create-quiz/page": "action-browser"
+      }
+    },
+    "4044275e354a8150062aa110b13e04e00fc51e06bc": {
+      "workers": {
+        "app/create-quiz/page": {
+          "moduleId": "[project]/.next-internal/server/app/create-quiz/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/quiz.actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/suggest-quiz-questions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/create-quiz/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "FnGQ+Kq4i3HBIaRhmC3pidZI2ypmJyexI4hFvogW4do="
+}
